@@ -1,0 +1,132 @@
+.business_section {
+    display: flex;
+    gap: 61px;
+    background: url(file:///C:/Users/user/rat-website/src/assets/business.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+    align-items: center;
+    padding: 175px 130px 175px 130px;
+}
+.business_section_left{
+    display: flex;
+    flex-direction: column;
+    width:65%;
+}
+.business_text1{
+    font-size: 45px;
+    font-weight: 700;
+    color: #ffffff;
+}
+.business_text2{
+    color: #ffffff;
+    font-size: 25px;
+    font-weight: 700;
+    margin-top: 20px;
+}
+.business_text3, .business_text4, .business_text5{
+    color: #ffffff;
+    font-size: 24px;
+    margin-top: 10px;
+    line-height: 18px;
+    font-weight: 300;
+}
+.business_input{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.company_name, .company_email, .comapny_number{
+    width: 300px;
+    /* height: 40px; */
+    background: #FFCC01;
+    border-radius: 30px;
+    border: none;
+    color: #000000;
+    margin-bottom: 10px;
+    padding: 15px 0px 15px 30px;
+}
+.business_input ::placeholder{
+    color:#131637;
+    /* padding-left:25px; */
+    font-size:16px;
+}
+.company_requirement{
+    padding: 15px 30px 125px 30px;
+    /* width: 300px; */
+    /* height: 40px; */
+    background: #FFCC01;
+    border-radius: 30px;
+    border: none;
+    color: #000000;
+    margin-bottom: 10px;
+}
+.company_requirement::placeholder{
+    padding-left:0px;
+}
+.business_book_button{
+    width: 100px;
+    height: 40px;
+    background: #FFCC01;
+    border-radius: 30px;
+    border: none;
+    color: #000000;
+    font-size:16px;
+    font-weight:600;
+}
+.business_mobile_image{
+    display: none;;
+}
+@media (max-width: 747px)  {
+    .business_section{
+        background: none;
+        flex-direction: column;
+        padding: 0px;
+        gap: 0px;
+    }
+    .business_section_left{
+        width: 80%;
+        padding: 10px 30px 
+    }
+    .business_text1{
+        position: relative;
+        font-size: 22px;
+    }
+    .business_text2{
+        position: relative;
+        font-size: 12px;
+        margin-top:0px;
+    }
+    .business_text3, .business_text4, .business_text5{
+        display: none;
+    }
+    .business_input::placeholder{
+        font-size: 10px;
+    }
+    .company_name::placeholder, .company_email::placeholder, .comapny_number::placeholder, .company_requirement::placeholder{
+        font-size: 10px;
+    }
+
+    .business_mobile_image{
+        display:block;
+        position: absolute;
+        width:100%;
+    }
+    .business_input{
+        position: relative;
+        margin-left: 150px;
+        gap:0px;
+    }
+    .company_name, .company_email, .comapny_number{
+        width:130px;
+        padding:5px 20px;
+    }
+    .business_book_button{
+        font-size: 16px;
+        padding: 7px;
+        height: 32px;
+    }
+    .company_requirement{
+        width:130px;
+        padding:5px 20px 50px 20px;
+    }
+}

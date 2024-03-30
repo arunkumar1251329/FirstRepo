@@ -1,0 +1,115 @@
+.about_section{
+    background: #FFCC08;
+    padding: 50px 50px 50px 100px;
+    margin-top: 100px;
+}
+.about_section h1{
+    font-size: 45px;
+}
+.about_section p{
+    font-size: 25px;
+}
+.about_section1_text1{
+    margin-bottom: 0px !important;
+}
+.about_section1_text2{
+    margin-top: 0px !important;
+}
+.about_section1_text3{
+    padding-right: 160px;
+    font-size: 25px;
+}
+.header{
+    /* position:static !important */
+}
+.about_section3 h1{
+    margin-bottom: 35px;
+}
+.about_section3_text1{
+    margin-bottom: 0px;
+}
+.about_section3_text2{
+    margin-top: 0px;
+}
+.about_section2_text2{
+    font-size: 25px;
+    margin-bottom: 0px;
+    margin-top: 0px;
+}
+.about_section2_text3{
+    margin-top: 15px;
+    margin-bottom: 0px;
+}
+.about_section2_text4{
+    margin-top: 0px;
+}
+.about_section3{
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+}
+.about_section3 h1{
+    margin-bottom: 20px;
+}
+.about_section3_text{
+    padding-right: 125px;
+}
+.about_section3_text1{
+    margin-bottom: 0px;
+}
+.about_section3_text2{
+    margin-top: 0px ;
+    padding-right: 125px;
+}
+.about_section4{
+    margin-bottom: 50px;
+}
+.about_section4_text{
+    list-style-type: decimal;
+    padding-left: 20px;
+    margin-top: 40px;
+}
+.about_section4_text li{
+    margin-bottom: 10px;
+    font-size: 25px;
+}
+
+@media (max-width: 747px){
+    .about_section{
+        padding: 25px;
+        margin-top:60px;
+    }
+    .about_section h1{
+        font-size: 24px;
+    }
+    .about_section p{
+        font-size: 20px;
+    }
+    .about_section1_text3{
+        padding-right:0px;
+    }
+    .about_section2_text2{
+        font-size:20px;
+    }
+    .about_section2_text3{
+        margin-top:0px;
+    }
+    .about_section3 h1{
+        font-size:24px;
+    }
+    .about_section3_text{
+        padding-right:0px;
+    }
+    .about_section3_text2{
+        padding-right:0px
+    }
+    .about_section4 h1{
+        margin-bottom: 0px;
+    }
+    .about_section4_text{
+        margin-top: 10px;
+    }
+    .about_section4_text li{
+        font-size:20px;
+    }
+}

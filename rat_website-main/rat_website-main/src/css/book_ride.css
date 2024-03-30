@@ -1,0 +1,124 @@
+.book_ride_section{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 40px 30px 60px 30px;
+}
+.book_section{
+    display: flex;
+    flex-direction: column;
+    width: 35%;
+    padding-top:15px; 
+}
+.text1{
+    font-size: 45px;
+    color: #049951;
+    font-weight: 700;
+    line-height: 54px;
+}
+.text2{
+    font-size: 25px;
+    font-weight: 500;
+    color: #131637;
+    margin-bottom: 25px;
+}
+.pick_up{
+    width: 300px;
+    /* height: 40px; */
+    background: #FFCC01;
+    border-radius: 30px;
+    border: none;
+    color: #000000;
+    margin-bottom: 15px;
+    padding: 15px 0px 15px 30px;
+}
+.drop_input{
+    width: 300px;
+    /* height: 40px; */
+    background: #FFCC01;
+    border-radius: 30px;
+    border: none;
+    color: #000000;
+    margin-bottom: 15px;
+    padding: 15px 0px 15px 30px;
+}
+.book_section ::placeholder{
+    color:#131637;
+    /* padding-left:25px; */
+    font-size:16px;
+}
+.book_button{
+    width: 100px;
+    height: 40px;
+    background: #FFCC01;
+    border-radius: 30px;
+    border: none;
+    color: #000000;
+}
+.text4{
+    font-size: 25px;
+    font-weight: 500;
+    color: #131637;
+    margin-top: 25px;
+}
+.text5{
+    font-size: 25px;
+    font-weight: 500;
+    color: #131637;
+}
+.book_image{
+    width: 30%;
+}
+.book_image_mobile{
+    display:none;
+}
+.book_image{
+   display: block;
+}
+@media (max-width: 747px){
+    .book_image_mobile{
+        display:block;
+        width: 100%;
+    }
+    .book_image{
+       display: none;
+    }
+    .book_ride_section{
+        display: block !important;
+        padding: 20px 30px 0px 30px;
+    }
+    .book_section{
+        width: 100%;
+        padding-top: 0px;
+    }
+    .text1{
+        font-size: 25px;
+        line-height: 30px;
+        padding-right: 58px;
+    }
+    .text2{
+        font-size: 14px;
+        padding-top: 5px;
+        margin-bottom: 15px;  
+    }
+    .input_book_ride{
+        display: flex;
+    flex-direction: column;
+    align-items: center;
+    }
+    .pick_up, .drop_input{
+        width: 70%;
+        padding: 15px 30px 15px 30px;
+    }
+    .book_button{
+        margin-left: 21px;
+    }
+    .text4{
+        font-size: 16px;
+    }
+    .text5{
+        font-size: 16px;
+        padding-top: 2px;
+        padding-bottom: 20px;
+    }
+}
